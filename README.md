@@ -38,7 +38,8 @@ Após a execução dos scripts, no GCP abra a tela do Load Balancer e copie o IP
 - e depois exit
 - aguarde alguns minutos e verá que o Grupo de Instancias criado automaticamente voltará as 2 instancias
 
-Por fim, para destruir toda a infraestrutura criada acima, basta executar o comando **terraform destroy** e dar yes e ele começara a destruir todos os recursos.
+Por fim, para destruir toda a infraestrutura criada acima, basta executar o comando **terraform destroy** e dar yes e ele começara a destruir todos os recursos. Você terá a seguinte resposta na console shell:
+![ScreenShot](img3.png)
 
 O exemplo é simples, mas lhe dará uma ótima ideia de como trabalhar com Terraform pas subir infraestrutura como código, e lembre-se, antes de fechar sua console GCP, verifique se seus recursos criados foram realmente excluídos para não ter uma surpresa desagradável ou exclua o projeto onde executou este exemplo.
 
